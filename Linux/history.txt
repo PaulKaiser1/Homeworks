@@ -1,0 +1,79 @@
+   0 cd /home/
+   1 pwd
+   2 mkdir user1
+   3 ls
+   4 cd user1/
+   5 pwd
+   6 mkdir task1
+   7 cd task1/
+   8 pwd
+   9 touch file1.txt
+  10 pwd
+  11 ls 
+  12 ls -l
+  13 ls -a
+  14 ls -la
+  15 tree /home/
+  16 date
+  17 mkdir -p /home/user1/task1/
+  18 tree /home/
+  19 date
+  20 ls -la
+  21 touch /home/user1/task1/file.txt
+  22 tree /home/
+  23 mkdir /home/task2
+  24 mkdir /home/user2/task2
+  25 tree /home/
+  26 touch /home/user2/task2/file2.txt
+  27 mkdir -p /home/user3/task3
+  28 tree /home/
+  29 mkdir /home/user2/task2/
+  30 pwd
+  31 ls -la /home/user2/task2/file2.txt
+  32 pwd
+  33 cd /home/
+  34 ls user1/
+  35 mkdir -p user3/task3/
+  36 pwd
+  37 cp /home/user2/task2/file.txt /home/user3/task3/file3.txt
+  38 cp /home/user2/task2/file2.txt /home/user3/task3/file3.txt
+  39 cp /home/user1/task1/file.txt /home/user3/task3/file3.txt
+  40 tree /home/
+  41 mkdir /home/user4/task4
+  42 tree /home/
+  43 ls -a /
+  44 ls /home/
+  45 ls -l /home/user
+  46 ls -l /home/user1
+  47 ls -l /home/user2
+  48 ls -l /home/task
+  49 ls -l /home/task2
+  50 ls -l /home/user3
+  51 history
+  52 cp /home/user3/task3/file3.txt 
+  53 cp /home/user3/task3/file3.txt /tmp/
+  54 ls /tmp/file3.txt 
+  55 tree /home/
+  56 tree /tmp/
+  57 cp /home/user1/task1/file.txt /tmp/
+  58 ls /tmp/
+  59 cp /home/user1/task1/file1.txt /tmp/
+  60 cp /home/user1/task1/file1.txt /tmp/newfile
+  61 ls /tmp/
+  62 ls -l /tmp/
+  63 mv /tmp/newfile /opt
+  64 ls /tmp/
+  65 ls /opt/
+  66 cp /home/user1 /tmp/newfile
+  67 cp --help
+  68 cp -r /home/user1 /tmp/newfile
+  69 ls -l /tmp/
+  70 tree /tmp/
+  71 cp /home/user3/ /tmp/
+  72 cp -r /home/user3/ /tmp/
+  73 tree /tmp/
+  74 ls -l /tmp/
+  75 rm /tmp/file.txt
+  76 tree /tmp/
+  77 history
+  78 history > /tmp/history.txt
